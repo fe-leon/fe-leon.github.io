@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-13T03:09:00.089Z</updated>
+  <updated>2016-06-13T03:10:20.425Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>前端</title>
+    <title>测试</title>
     <link href="http://yoursite.com/2016/04/27/test/"/>
     <id>http://yoursite.com/2016/04/27/test/</id>
     <published>2016-04-27T02:26:00.000Z</published>
-    <updated>2016-06-13T03:09:00.089Z</updated>
+    <updated>2016-06-13T03:10:20.425Z</updated>
     
     <content type="html">&lt;h2 id=&quot;h2&quot;&gt;&lt;a href=&quot;#h2&quot; class=&quot;headerlink&quot; title=&quot;h2&quot;&gt;&lt;/a&gt;h2&lt;/h2&gt;&lt;h3 id=&quot;h3&quot;&gt;&lt;a href=&quot;#h3&quot; class=&quot;headerlink&quot; title=&quot;h3&quot;&gt;&lt;/a&gt;h3&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ h3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -42,9 +42,9 @@
       <category term="前端技术" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
-      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
   </entry>
   
