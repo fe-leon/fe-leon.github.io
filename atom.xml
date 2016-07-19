@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-13T03:10:20.425Z</updated>
+  <updated>2016-06-28T07:39:21.743Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,14 +16,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
-    <link href="http://yoursite.com/2016/04/27/document/"/>
-    <id>http://yoursite.com/2016/04/27/document/</id>
-    <published>2016-04-27T02:26:00.000Z</published>
-    <updated>2016-06-13T03:10:20.425Z</updated>
+    <title>hexo</title>
+    <link href="http://yoursite.com/2016/06/28/test/"/>
+    <id>http://yoursite.com/2016/06/28/test/</id>
+    <published>2016-06-28T07:39:20.000Z</published>
+    <updated>2016-06-28T07:39:21.743Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;h2&quot;&gt;&lt;a href=&quot;#h2&quot; class=&quot;headerlink&quot; title=&quot;h2&quot;&gt;&lt;/a&gt;h2&lt;/h2&gt;&lt;h3 id=&quot;h3&quot;&gt;&lt;a href=&quot;#h3&quot; class=&quot;headerlink&quot; title=&quot;h3&quot;&gt;&lt;/a&gt;h3&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ h3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <content type="html">&lt;h3 id=&quot;启动一个本地服务器&quot;&gt;&lt;a href=&quot;#启动一个本地服务器&quot; class=&quot;headerlink&quot; title=&quot;启动一个本地服务器&quot;&gt;&lt;/a&gt;启动一个本地服务器&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;生成静态文件&quot;&gt;&lt;a href=&quot;#生成静态文件&quot; class=&quot;headerlink&quot; title=&quot;生成静态文件&quot;&gt;&lt;/a&gt;生成静态文件&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;发布到git&quot;&gt;&lt;a href=&quot;#发布到git&quot; class=&quot;headerlink&quot; title=&quot;发布到git&quot;&gt;&lt;/a&gt;发布到git&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;1111&lt;/li&gt;
 &lt;li&gt;222&lt;/li&gt;
@@ -46,38 +48,7 @@
     
       <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="http://yoursite.com/2016/04/27/test/"/>
-    <id>http://yoursite.com/2016/04/27/test/</id>
-    <published>2016-04-27T02:26:00.000Z</published>
-    <updated>2016-06-13T03:10:20.425Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;h2&quot;&gt;&lt;a href=&quot;#h2&quot; class=&quot;headerlink&quot; title=&quot;h2&quot;&gt;&lt;/a&gt;h2&lt;/h2&gt;&lt;h3 id=&quot;h3&quot;&gt;&lt;a href=&quot;#h3&quot; class=&quot;headerlink&quot; title=&quot;h3&quot;&gt;&lt;/a&gt;h3&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ h3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;1111&lt;/li&gt;
-&lt;li&gt;222&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;js语法&quot;&gt;&lt;a href=&quot;#js语法&quot; class=&quot;headerlink&quot; title=&quot;js语法&quot;&gt;&lt;/a&gt;js语法&lt;/h3&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; s = &lt;span class=&quot;number&quot;&gt;123&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;dddddd&quot;&gt;&lt;a href=&quot;#dddddd&quot; class=&quot;headerlink&quot; title=&quot;dddddd&quot;&gt;&lt;/a&gt;dddddd&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ leon&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      介绍xxx使用方法或技巧
-    
-    </summary>
-    
-      <category term="前端技术" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
