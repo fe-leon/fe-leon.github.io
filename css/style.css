@@ -3288,8 +3288,6 @@ a[title="站长统计"] {
 .post-content img {
   display: block;
   max-width: 96%;
-  margin: 40px auto;
-  padding: 8px;
   background: #fff;
   border-radius: 2px;
   overflow: hidden;

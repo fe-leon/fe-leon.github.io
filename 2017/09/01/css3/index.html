@@ -3,19 +3,28 @@
 <head>
   <meta charset="utf-8">
   
-  <title>leon | 我是一名前端的小菜鸟</title>
+  <title>CSS3实现带小三角形的div框 | leon | 我是一名前端的小菜鸟</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="keywords" content="undefined">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="leon">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="keywords" content="css3,div">
+  <meta name="description" content="三角形的实现方式">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS3实现带小三角形的div框">
+<meta property="og:url" content="http://yoursite.com/2017/09/01/css3/index.html">
 <meta property="og:site_name" content="leon">
-<meta property="og:description">
+<meta property="og:description" content="三角形的实现方式">
+<meta property="og:image" content="http://yoursite.com/img/triangle1.png">
+<meta property="og:image" content="http://yoursite.com/img/triangle.png">
+<meta property="og:image" content="http://yoursite.com/img/box2.png">
+<meta property="og:image" content="http://yoursite.com/img/box3.png">
+<meta property="og:image" content="http://yoursite.com/img/box-bottom.png">
+<meta property="og:image" content="http://yoursite.com/img/topLeft.png">
+<meta property="og:image" content="http://yoursite.com/img/topRight.png">
+<meta property="og:updated_time" content="2017-09-01T10:06:11.588Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="leon">
-<meta name="twitter:description">
+<meta name="twitter:title" content="CSS3实现带小三角形的div框">
+<meta name="twitter:description" content="三角形的实现方式">
+<meta name="twitter:image" content="http://yoursite.com/img/triangle1.png">
   
     <link rel="alternative" href="/atom.xml" title="leon" type="application/atom+xml">
   
@@ -27,7 +36,7 @@
 <body>
   <div id="loading" class="active"></div>
 
-  <nav id="menu"  >
+  <nav id="menu" class="hide" >
    <div class="inner flex-row-vertical">
   <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
       <i class="icon icon-lg icon-close"></i>
@@ -43,7 +52,7 @@
   </div>
   <ul class="nav flex-col">
     
-        <li class="waves-block waves-effect active">
+        <li class="waves-block waves-effect">
           <a href="/"  >
             <i class="icon icon-lg icon-home"></i>
             主页
@@ -97,7 +106,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">leon</div>
+        <div class="flex-col header-title ellipsis">CSS3实现带小三角形的div框</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -118,40 +127,74 @@
 </header>
 <header class="content-header">
   <div class="container">
-    <h1 class="author">leon</h1>
-    <h5 class="subtitle">我是一名前端的小菜鸟</h5>
+    <h1 class="author">CSS3实现带小三角形的div框</h1>
+    <h5 class="subtitle">2017-09-01</h5>
   </div>
 </header>
 
     <div class="container body-wrap">
       
-  <ul class="post-list">
-  
-    <li class="post-list-item">
   <article id="post-css3" class="article article-type-post" itemprop="blogPost">
     
-      
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2017/09/01/css3/">CSS3实现带小三角形的div框</a>
-    </h3>
-  
-
-
-
       <div class="post-meat flex-row">
         <div class="flex-col">
 	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css3/">css3</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/div/">div</a></li></ul>
 </div>
-        <time datetime="2017-09-01T02:06:20.000Z" itemprop="datePublished" class="post-tiem">
-  2017-09-01
-</time>
       </div>
-      <div class="post-content" id="post-content" itemprop="postContent" >
-        
-          <h2 id="CSS绘制三角形"><a href="#CSS绘制三角形" class="headerlink" title="CSS绘制三角形"></a>CSS绘制三角形</h2><pre><code>在开发项目时，很多时候我们会用到三角形这个效果，以前都是直接截图或者使用字体图标去实现，现在就让我们用css border去实现。
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#CSS绘制三角形"><span class="post-toc-text">CSS绘制三角形</span></a></li></ol>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="CSS绘制三角形"><a href="#CSS绘制三角形" class="headerlink" title="CSS绘制三角形"></a>CSS绘制三角形</h2><pre><code>在开发项目时，很多时候我们会用到三角形这个效果，以前都是直接截图或者使用字体图标去实现，现在就让我们用css border去实现。
 </code></pre><p><img src="/img/triangle1.png" alt=""><br><img src="/img/triangle.png" alt=""></p>
 <ul>
 <li>给一个宽高为20px的 div 设置10px的 border，给每个边框设置不同的颜色看看效果</li>
@@ -186,57 +229,63 @@
 </li>
 </ul>
 
-        
-      </div>
-      <div class="post-footer clearfix">
-        <a href="/2017/09/01/css3/" class="post-more waves-effect waves-button waves-light">MORE</a>
-      </div>
-    
-
-  </article>
-
-
-</li>
-  
-    <li class="post-list-item">
-  <article id="post-test" class="article article-type-post" itemprop="blogPost">
-    
-      
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2016/06/28/test/">hexo</a>
-    </h3>
+            <blockquote>
+              <p>
+                本文地址：
+                <a href="http://yoursite.com/2017/09/01/css3/" target="_blank" rel="external">http://yoursite.com/2017/09/01/css3/</a>
+              </p>
+              <footer><cite><a href="http://yoursite.com">@leon</a></cite></footer>
+            </blockquote>
+            </div>
+            
+<nav class="post-nav">
   
 
+  
+    <div class="waves-block waves-effect next fr">
+      <a href="/2016/06/28/test/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">hexo</h4>
+      </a>
+    </div>
+  
+</nav>
 
 
-      <div class="post-meat flex-row">
-        <div class="flex-col">
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="css3" data-title="CSS3实现带小三角形的div框" data-url="http://yoursite.com/2017/09/01/css3/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"fe-leon"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
 </div>
-        <time datetime="2016-06-28T07:39:20.000Z" itemprop="datePublished" class="post-tiem">
-  2016-06-28
-</time>
+
+
+
+
+
+
+        </div>
+
       </div>
-      <div class="post-content" id="post-content" itemprop="postContent" >
-        
-          <h3 id="启动一个本地服务器"><a href="#启动一个本地服务器" class="headerlink" title="启动一个本地服务器"></a>启动一个本地服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-        
-      </div>
-      <div class="post-footer clearfix">
-        <a href="/2016/06/28/test/" class="post-more waves-effect waves-button waves-light">MORE</a>
-      </div>
+
     
 
   </article>
 
-
-</li>
-  
-  </ul>
-  
 
 
     </div>
@@ -246,10 +295,10 @@
 
 <script>
 var BLOG_SHARE = {
-    title: "leon",
+    title: "CSS3实现带小三角形的div框",
     pic: "http://q.qlogo.cn/qqapp/100229475/38067073F5E9EBA9C1AED308A8C162D2/140",
     summary: document.getElementsByName('summary')[0].content,
-    url: "http://yoursite.com/index.html"
+    url: "http://yoursite.com/2017/09/01/css3/index.html"
 };
 </script>
 <div class="global-share" id="global-share">
