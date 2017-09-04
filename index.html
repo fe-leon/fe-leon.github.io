@@ -152,40 +152,7 @@
       <div class="post-content" id="post-content" itemprop="postContent" >
         
           <h2 id="CSS绘制三角形"><a href="#CSS绘制三角形" class="headerlink" title="CSS绘制三角形"></a>CSS绘制三角形</h2><pre><code>在开发项目时，很多时候我们会用到三角形这个效果，以前都是直接截图或者使用字体图标去实现，现在就让我们用css border去实现。
-</code></pre><p><img src="/img/triangle1.png" alt=""><br><img src="/img/triangle.png" alt=""></p>
-<ul>
-<li>给一个宽高为20px的 div 设置10px的 border，给每个边框设置不同的颜色看看效果</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"box"</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">.box&#123;</span><br><span class="line">    width: <span class="number">20</span>px;</span><br><span class="line">    height: <span class="number">20</span>px;</span><br><span class="line">    border-width: <span class="number">10</span>px;</span><br><span class="line">    border-style: solid;</span><br><span class="line">    border-color: blue yellow red gray;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>效果<br><img src="/img/box2.png" alt=""></p>
-</li>
-<li><p>我们再把这个 div 宽高设置为0， 看看效果</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"box"</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">.box&#123;</span><br><span class="line">    width: <span class="number">0</span>px;</span><br><span class="line">    height: <span class="number">0</span>px;</span><br><span class="line">    border-width: <span class="number">10</span>px;</span><br><span class="line">    border-style: solid;</span><br><span class="line">    border-color: blue yellow red gray;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>效果<br><img src="/img/box3.png" alt=""></p>
-</li>
-<li><p>根据上方的效果， 可以看出每个 div 的边框都是一个小三角， 而在实际开发中我们只需要某一个或多个三角就好了。那么给不需要显示的边框的 color 设置成 transparent 透明即可</p>
-</li>
-<li><p>比如一个向下的三角形， 向上、右、左都是同理</p>
-</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"box"</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">.box&#123;</span><br><span class="line">    width: <span class="number">0</span>px;</span><br><span class="line">    height: <span class="number">0</span>px;</span><br><span class="line">    border-top: <span class="number">40</span>px solid red;</span><br><span class="line">    border-left: <span class="number">40</span>px solid transparent;</span><br><span class="line">    border-right: <span class="number">40</span>px solid transparent;</span><br><span class="line">    border-bottom: <span class="number">40</span>px solid transparent;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>效果<br><img src="/img/box-bottom.png" alt=""></p>
-</li>
-<li><p>如果需要一个直角三角形的话，你还可以这样</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"box"</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">.box&#123;</span><br><span class="line">    width: <span class="number">0</span>px;</span><br><span class="line">    height: <span class="number">0</span>px;</span><br><span class="line">    border-bottom: <span class="number">40</span>px solid red;</span><br><span class="line">    border-left: <span class="number">40</span>px solid red;</span><br><span class="line">    border-right: <span class="number">40</span>px solid transparent;</span><br><span class="line">    border-top: <span class="number">40</span>px solid transparent;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>效果<br><img src="/img/topLeft.png" alt=""></p>
-</li>
-<li><p>这样等等…自由组合</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"box"</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">.box&#123;</span><br><span class="line">    width: <span class="number">0</span>px;</span><br><span class="line">    height: <span class="number">0</span>px;</span><br><span class="line">    border-top: <span class="number">40</span>px solid red;</span><br><span class="line">    border-right: <span class="number">40</span>px solid red;</span><br><span class="line">    border-left: <span class="number">40</span>px solid transparent;</span><br><span class="line">    border-bottom: <span class="number">40</span>px solid transparent;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>效果<br><img src="/img/topRight.png" alt=""></p>
-</li>
-</ul>
-
+</code></pre>
         
       </div>
       <div class="post-footer clearfix">

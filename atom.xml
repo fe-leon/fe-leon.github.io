@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-01T10:06:11.588Z</updated>
+  <updated>2017-09-04T07:30:53.764Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="http://yoursite.com/2017/09/01/css3/"/>
     <id>http://yoursite.com/2017/09/01/css3/</id>
     <published>2017-09-01T02:06:20.000Z</published>
-    <updated>2017-09-01T10:06:11.588Z</updated>
+    <updated>2017-09-04T07:30:53.764Z</updated>
     
     <content type="html">&lt;h2 id=&quot;CSS绘制三角形&quot;&gt;&lt;a href=&quot;#CSS绘制三角形&quot; class=&quot;headerlink&quot; title=&quot;CSS绘制三角形&quot;&gt;&lt;/a&gt;CSS绘制三角形&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;在开发项目时，很多时候我们会用到三角形这个效果，以前都是直接截图或者使用字体图标去实现，现在就让我们用css border去实现。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;/img/triangle1.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/triangle.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;/img/triangle1.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/triangle.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;给一个宽高为20px的 div 设置10px的 border，给每个边框设置不同的颜色看看效果&lt;/li&gt;
 &lt;/ul&gt;
